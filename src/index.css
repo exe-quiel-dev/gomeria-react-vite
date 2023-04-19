@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .hero{ 
+  background: url(./imgs/hero.webp);
+  height: 37.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.hero {
+  height: 50vh;
+}
+.mision_vision{
+  height: 33vh;
+  width: 100%;
+}
+.bg_atencion_servicio{
+  background: url(./imgs/bg_cards.jpg);
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
