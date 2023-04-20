@@ -4,7 +4,7 @@ import heroImg from '../imgs/hero.webp'
 const Hero = () => {
   return (
     <>
-      <Parallax strength={200} bgImage={heroImg}>
+      <Parallax strength={700} bgImage={heroImg}>
         <div className="hero flex items-center justify-start p-5">
           <div className='w-full flex flex-col items-center justify-center'>
             <div className='container mx-auto bg-black/[0.1] p-5 rounded'>

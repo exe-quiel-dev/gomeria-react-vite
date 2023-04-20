@@ -8,7 +8,7 @@ import marcasImg from '../imgs/marcas.jpg'
 const Marcas = () => {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1000,
       easing: 'ease-in-out'
     })
   }, [])

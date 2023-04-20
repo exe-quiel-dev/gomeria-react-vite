@@ -4,6 +4,7 @@ import MisionVision from '../components/MisionVision'
 import Hero from '../components/Hero'
 import QuienesSomos from '../components/QuienesSomos'
 import Marcas from '../components/Marcas'
+import Form from '../components/Form'
 
 
 const Home = () => {
@@ -16,9 +17,10 @@ const Home = () => {
       <MisionVision />
       <AtencionYServicio />
       <Marcas />
-      <section className='bg-gray-200 p-10' id='mision_vision'>
+      <section className='bg-gray-200 p-2' id='mision_vision'>
         <Contacto />
       </section>
+        <Form />
     </main>
   )
 }
