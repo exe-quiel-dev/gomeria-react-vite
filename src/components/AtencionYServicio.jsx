@@ -7,7 +7,7 @@ import bgImg from '../imgs/bg_cards.jpg'
 
 const AtencionYServicio = () => {
   useEffect(() => {
-    AOS.init({duration: 1000})
+    AOS.init({duration: 1500})
   }, [])
   
   return (
