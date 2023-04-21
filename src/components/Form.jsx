@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 const Form = () => {
   useEffect(() => {
     AOS.init({
-      duration: 500,
+      duration: 1500,
       easing: 'ease-in-out'
     })
   }, [])

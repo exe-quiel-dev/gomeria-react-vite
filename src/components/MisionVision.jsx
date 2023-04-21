@@ -8,7 +8,7 @@ import tyresImg from '../imgs/tyre_storage.jpg'
 const MisionVision = () => {
   useEffect(() => {
     AOS.init({
-      duration: 500,
+      duration: 1500,
       easing: 'ease-in-out'
     })
   }, [])
