@@ -20,7 +20,7 @@ const Form = () => {
         <div className="p-5 md:p-10">
           <form className="flex flex-col items-center">
             <div className="flex flex-col md:flex-row items-center justify-center w-full">
-              <div className="m-4 w-full" data-aos='zoom-in' data-aos-offset={10}>
+              <div className="m-4 w-full" data-aos='zoom-in' data-aos-offset={200}>
                 <label
                   className="font-bold uppercase"
                   htmlFor="nombre"
@@ -32,7 +32,7 @@ const Form = () => {
                   placeholder="Ingrese su nombre"
                 />
               </div>
-              <div className="m-4 w-full" data-aos='zoom-in' data-aos-offset={10}>
+              <div className="m-4 w-full" data-aos='zoom-in' data-aos-offset={200}>
                 <label
                   className="font-bold uppercase"
                   htmlFor="correo"
@@ -44,7 +44,7 @@ const Form = () => {
                   placeholder="Ingrese su correo"
                 />
               </div>
-              <div className="m-4 w-full" data-aos='zoom-in' data-aos-offset={10}>
+              <div className="m-4 w-full" data-aos='zoom-in' data-aos-offset={200}>
                 <label
                   className="font-bold uppercase"
                   htmlFor="telefono"
