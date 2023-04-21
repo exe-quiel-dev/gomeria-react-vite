@@ -17,7 +17,7 @@ const Marcas = () => {
   }, [])
 
   return (
-    <div><img src={marcasImg} alt='logos de marcas' data-aos='fade' data-aos-offset={200} /></div>
+    <div><img src={marcasImg} alt='logos de marcas' data-aos='fade' data-aos-offset={-200} /></div>
   )
 }
 
