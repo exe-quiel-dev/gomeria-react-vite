@@ -1,4 +1,5 @@
 import { Parallax } from 'react-parallax'
+import { Link } from "react-scroll";
 import heroImg from '../imgs/hero.webp'
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
           <div className='w-full flex flex-col items-center justify-center'>
             <div className='container mx-auto bg-black/[0.1] p-5 rounded'>
               <h2 className='uppercase text-white drop-shadow font-bold text-5xl py-5'>servicio de auxilio <span className='text-yellow-400 block'>las 24 horas</span></h2>
-              <button className='uppercase text-xl bg-white text-black p-3 hover:bg-yellow-400 transition-all mt-10 border hover:shadow hover:rounded-xl'>Contactenos</button>
+              <button className='uppercase text-xl bg-white text-black p-3 hover:bg-yellow-400 transition-all mt-10 border hover:shadow hover:rounded-xl'><Link to='contacto' smooth={true} offset={200} duration={500}>Contactenos</Link></button>
             </div>
           </div>
         </div>

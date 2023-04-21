@@ -17,10 +17,10 @@ const Form = () => {
           <h4 className="uppercase font-bold text-2xl text-blue-700">Envíanos un mensaje</h4>
           <p className="p-3">¿Tiene una pregunta? Estamos aquí para ayudarle. Envíenos un mensaje y nos pondremos en contacto con usted</p>
         </div>
-        <div className="p-5 md:p-10">
+        <div className="p-5 md:p-10" data-aos='zoom-in' data-aos-offset={200}>
           <form className="flex flex-col items-center">
             <div className="flex flex-col md:flex-row items-center justify-center w-full">
-              <div className="m-4 w-full" data-aos='zoom-in' data-aos-offset={-200}>
+              <div className="m-4 w-full">
                 <label
                   className="font-bold uppercase"
                   htmlFor="nombre"
